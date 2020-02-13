@@ -1,4 +1,4 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 
 public class Problems {
 
@@ -32,7 +32,7 @@ public class Problems {
 		h = scan.nextInt();
 		m = scan.nextInt();
 		
-		// 범위 넘어가지 않았을때
+		// 범위 넘어가지 않았을때!!!!!!!!!!!
 		if(!((h < 0 || h > 23) || (m < 0 || m > 59))){
 			result = true;
 		}
